@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urban Glide - Sabrina Sneakers</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Google Fonts: Bebas Neue & Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <!-- CSS Kustom -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Navigasi -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">Sabrina Sneakers</a>
+            <ul class="navbar-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="produk.html">Produk</a></li>
+                <li><a href="kontak.html">Kontak</a></li>
+                <li>
+                    <a href="cart.html">
+                        <i class="fas fa-shopping-cart"></i> 
+                        <!-- Badge jumlah item di keranjang -->
+                        <span class="cart-count">0</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Detail Produk -->
+    <main class="container section product-detail">
+        <div class="product-detail-image">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9g2jO-om9FnYUJXhWVABtAKEgQ8F-ASSHeg&s" alt="Urban Glide">
+        </div>
+        <div class="product-detail-info">
+            <h2>Urban Glide</h2>
+            <p class="price">Rp 690.000</p>
+            <p class="description">
+                Urban Glide adalah perpaduan sempurna antara gaya kasual dan performa. Sepatu ini nyaman dipakai sepanjang hari, baik untuk berjalan-jalan di kota maupun aktivitas ringan. Desainnya yang minimalis dan modern membuatnya mudah dipadukan dengan outfit apapun.
+            </p>
+<button class="btn btn-buy" data-id="3" data-name="Urban Glide" data-price="690000" data-image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9g2jO-om9FnYUJXhWVABtAKEgQ8F-ASSHeg&s">Tambah ke Keranjang</button>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <!-- Footer baru yang lebih detail -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <!-- Informasi Kontak Toko -->
+                <div class="footer-contact">
+                    <ul class="footer-contact-list">
+                        <li><i class="fas fa-envelope"></i> <a href="mailto:sabrinafitri2003@gmail.com">sabrinafitri2003@gmail.com</a></li>
+                        <li><i class="fab fa-instagram"></i> <a href="#" target="_blank">@sabrinasneakers</a></li>
+                        <li><i class="fab fa-twitter"></i> <a href="#" target="_blank">@sabrinasnkrs</a></li>
+                        <li><i class="fas fa-map-marker-alt"></i> Bandung, Indonesia</li>
+                    </ul>
+                </div>
+                <!-- Copyright -->
+                <div class="footer-copyright">
+                    Copyright &copy; 2025 Sabrina Sneakers
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Notifikasi -->
+    <!-- Notifikasi untuk feedback pengguna -->
+    <div id="notification" class="notification"></div>
+
+    <!-- Script JS -->
+    <script src="js/script.js"></script>
+</body>
+</html>

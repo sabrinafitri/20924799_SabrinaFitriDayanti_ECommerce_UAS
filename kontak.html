@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak - Sabrina Sneakers</title>
+    <!-- Google Fonts: Bebas Neue & Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <!-- CSS Kustom -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Navigasi -->
+<nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">Sabrina Sneakers</a>
+            <button class="navbar-toggle" aria-label="Toggle navigation">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <ul class="navbar-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="produk.html">Produk</a></li>
+                <li><a href="kontak.html">Kontak</a></li>
+                <li>
+                    <a href="cart.html" title="Keranjang Belanja">
+                        <i class="fas fa-shopping-cart"></i> 
+                        <!-- Badge jumlah item di keranjang -->
+                        <span class="cart-count">0</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Konten Halaman Kontak -->
+    <main class="container section">
+        <h2 class="section-title">Hubungi Kami</h2>
+        <p class="section-description">Punya pertanyaan, saran, atau ingin berkolaborasi? Jangan ragu untuk menghubungi kami melalui form di bawah ini atau melalui kontak yang tersedia.</p>
+
+        <!-- Wrapper untuk Form dan Info Kontak -->
+        <div class="contact-wrapper">
+            <!-- Form Kontak -->
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Nama Lengkap</label>
+                    <input type="text" id="name" name="name" placeholder="Masukkan nama Anda" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Alamat Email</label>
+                    <input type="email" id="email" name="email" placeholder="Masukkan email Anda" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Pesan Anda</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Tuliskan pesan Anda di sini..." required></textarea>
+                </div>
+                <button type="submit" class="btn">Kirim Pesan</button>
+            </form>
+            <!-- / Form Kontak -->
+        </div>
+        <!-- / Wrapper -->
+    </main>
+
+    <!-- Footer baru yang lebih detail -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <!-- Informasi Kontak Toko -->
+                <div class="footer-contact">
+                    <ul class="footer-contact-list">
+                        <li><i class="fas fa-envelope"></i> <a href="mailto:sabrinafitri2003@gmail.com">sabrinafitri2003@gmail.com</a></li>
+                        <li><i class="fab fa-instagram"></i> <a href="#" target="_blank">@sabrinasneakers</a></li>
+                        <li><i class="fab fa-twitter"></i> <a href="#" target="_blank">@sabrinasnkrs</a></li>
+                        <li><i class="fas fa-map-marker-alt"></i> Bandung, Indonesia</li>
+                    </ul>
+                </div>
+                <!-- Copyright -->
+                <div class="footer-copyright">
+                    Copyright &copy; 2025 Sabrina Sneakers
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Notifikasi untuk feedback pengguna -->
+    <div id="notification" class="notification"></div>
+
+    <!-- Script JS -->
+    <script src="js/script.js"></script>
+</body>
+</html>
